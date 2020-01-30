@@ -10,6 +10,7 @@ namespace Dating.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            ContextKey = "Dating.Models.ApplicationDbContext";
         }
 
         protected override void Seed(Dating.Models.ApplicationDbContext context)
