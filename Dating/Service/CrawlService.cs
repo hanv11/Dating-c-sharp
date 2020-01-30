@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Dating.Structure
+namespace Dating.Service
 {
-    public class Constant
+    public class CrawlService
     {
     }
 }
