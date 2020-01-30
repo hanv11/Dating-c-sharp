@@ -10,12 +10,27 @@ namespace Dating.Models
 {
     public class Account: IdentityUser
     {
-        public string Name { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime Birthday { get; set; }
+        public int TuoiAmLich { get; set; }
+        public int Menh { get; set; }
         public GenderType Gender { get; set; }
         public AccountTypes AccountType { get; set; }
-        public string description { get; set; }
+        public string Description { get; set; }
         public string Images { get; set; }
         public string Address { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
+        public UserStatus Status { get; set; }
+
+        public enum UserStatus
+        {
+            Active = 1,
+            DeActive = 2,
+            Delete = 0
+        }
+
         public enum AccountTypes
         {
             Copper = 0,
