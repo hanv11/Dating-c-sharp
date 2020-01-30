@@ -38,6 +38,7 @@ namespace Dating.Models
             Gold = 2,
             Platium = 3
         }
+        
         public enum GenderType
         {
             Male = 1,
