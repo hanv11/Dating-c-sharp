@@ -213,6 +213,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Service\AmLichService.cs" />
+    <Compile Include="Structure\Constant.cs" />
     <Compile Include="Structure\Enums.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
