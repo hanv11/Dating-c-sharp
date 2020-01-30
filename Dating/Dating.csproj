@@ -212,6 +212,10 @@
     <Compile Include="Migrations\202001300429375_InitialCreate.Designer.cs">
       <DependentUpon>202001300429375_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001300806228_Account_table.cs" />
+    <Compile Include="Migrations\202001300806228_Account_table.Designer.cs">
+      <DependentUpon>202001300806228_Account_table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Service\AmLichService.cs" />
     <Compile Include="Structure\Constant.cs" />
@@ -1314,6 +1318,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202001300429375_InitialCreate.resx">
       <DependentUpon>202001300429375_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001300806228_Account_table.resx">
+      <DependentUpon>202001300806228_Account_table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
